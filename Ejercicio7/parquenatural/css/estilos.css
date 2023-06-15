@@ -1,0 +1,39 @@
+div{
+    border: 10px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 20px solid rgba(128, 128, 128, 0.3);
+    padding: 10px 20px;
+    max-width: 850px;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+
+h1{
+    color: green;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h1 > span{
+    color: orange;
+}
+
+h2{
+    color:rgba(0, 163, 49, 0.842);
+    margin-bottom: 0;
+}
+
+hr{
+    border-color: rgba(115, 255, 0, 0.295);
+    margin-top: 0;
+}
+
+h3{
+    color: orange;
+}
+
+#texto{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+}

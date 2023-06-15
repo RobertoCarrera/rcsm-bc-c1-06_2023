@@ -1,0 +1,39 @@
+
+div{
+    background-color: rgba(253, 205, 116, 0.2);
+    width: 600px;
+    font-family: Verdana;
+    font-size: 12px;
+    padding: 0 0 1px 3px;
+}
+
+h1{
+    background-color: rgb(253, 205, 116);
+    font-size: 16px;
+}
+
+h2{
+    color: rgb(8, 162, 201);
+    font-style: italic;
+    font-size: 24px;
+}
+
+h3{
+    font-style: italic;
+    color: rgb(160, 158, 158);
+}
+
+h3 span{
+    color: black;
+    font-style: normal;
+    font-weight: normal;
+}
+
+h4{
+    font-weight: bold;
+    color: rgb(105, 105, 105);
+}
+
+li{
+    list-style: none;
+}

@@ -1,0 +1,56 @@
+/*ESTILOS CONTAINERS*/
+
+#container{
+    border: 10px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 20px solid rgba(128, 128, 128, 0.3);
+    padding: 10px 20px;
+    width: 900px;
+}
+
+#contenido{
+    background-color: white;
+    display: flex;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+}
+
+#texto{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    width: 90%;
+    padding: 1em;
+}
+
+/*ESTILOS GENERALES*/
+
+h1{
+    color: green;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h1 > span{
+    color: orange;
+}
+
+/*ESTILOS CONTAINER MENÚ*/
+
+#menu ul{
+    padding: 0;
+    margin: 2em;
+}
+
+/*ESTILOS CONTAINER TEXT*/
+
+h2{
+    color:rgba(0, 163, 49, 0.842);
+    margin-bottom: 0;
+}
+
+hr{
+    border-color: rgba(115, 255, 0, 0.295);
+    margin-top: 0;
+}
+

@@ -1,0 +1,87 @@
+/*ESTILOS CONTAINERS*/
+
+#container{
+    border: 10px solid rgba(128, 128, 128, 0.3);
+    border-bottom: 20px solid rgba(128, 128, 128, 0.3);
+    /*A diferencia del CSS del ejercicio 8, 
+    corrijo el padding izquierdo para que quede perfecto*/
+    padding: 10px 20px 10px 0; 
+    width: 900px;
+}
+
+#contenido{
+    background-color: white;
+    display: flex;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    padding-top: 2em;
+    width: 20%;
+}
+
+#texto{
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    padding: 1em;
+    width: 80%;
+}
+
+/*ESTILOS GENERALES*/
+
+h1{
+    color: green;
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+h1 > span, h3{
+    color: orange;
+}
+
+/*ESTILOS CONTAINER MENÚ*/
+
+#menu ul{
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#menu ul li{
+    background-color:yellowgreen;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 0.5em 2em;
+    text-align: center;
+    margin: 0.5em auto;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+/*Aquí la class incrustada en el código html del a perteneciente 
+a la página actual para que tenga un color de fondo diferente*/
+.enlace_activo{
+    background-color: peachpuff;
+}
+
+/*Aquí el :hover que pides que cambia el color del enlace 
+a uno ligeramente más oscuro*/
+#menu ul li a:hover{
+    background-color:rgb(131, 175, 43);
+}
+
+/*ESTILOS CONTAINER TEXT*/
+
+h2{
+    color:rgba(0, 163, 49, 0.842);
+    margin-bottom: 0;
+}
+
+hr{
+    border-color: rgba(115, 255, 0, 0.295);
+    margin-top: 0;
+}
+
